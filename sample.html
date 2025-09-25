@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<img src="nust.png" class="top-image" alt="NUST Logo" style="display: block; margin-left: auto; margin-right: auto; width: 150px; height: auto; margin-top: 20px;">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Portal</title>
+<link rel="stylesheet" href="sample.css">
+<style>
+        body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+                width: 100vw;
+                height: 100vh;
+                box-sizing: border-box;
+        }
+        .container {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+        
+        h1 {
+            text-align: center;
+        }
+        .info {
+            margin: 10px 0;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .info label {
+            font-weight: bold;
+        }
+        .examination-results {
+            margin-top: 20px;
+        }
+        .results-table {
+            margin-top: 20px;
+            max-height: 300px;
+            overflow-y: auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>National University Of Science & Technology</h1>
+        <div class="info">
+            <label>Full Name:</label>
+            <span></span>
+        </div>
+        <div class="info">
+            <label>Admission Number:</label>
+            <span></span>
+        </div>
+        <div class="info">
+            <label>Date of Birth:</label>
+            <span></span>
+        </div>
+        <div class="info">
+            <label>Programme:</label>
+            <span></span>
+        </div>
+
+        <div class="examination-results">
+            <h2>Examination Results</h2>
+            <p>Please ignore Duplicate Results.</p>
+            <div class="results-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Academic Year</th>
+                            <th>Part</th>
+                            <th>Semester</th>
+                            <th>Entry Type</th>
+                            <th>Course Code</th>
+                            <th>Course Title</th>
+                            <th>Mark</th>
+                            <th>Classification</th>
+                            <th>Remarks</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
